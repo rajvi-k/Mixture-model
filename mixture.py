@@ -6,10 +6,8 @@ import torch.optim as optim
 from torch.utils.data import TensorDataset
 import os
 
-# from matplotlib.pylab import plt
-
-np.random.seed(1)
-torch.manual_seed(1)
+#np.random.seed(1)
+#torch.manual_seed(1)
 
 
 class mixture_model(torch.nn.Module):
